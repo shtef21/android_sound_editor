@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Sound Editor</string>
+    <string name="title_activity_edit_sound">EditSound</string>
+    <string name="title_activity_swap_sound">SwapSoundActivity</string>
 </resources>

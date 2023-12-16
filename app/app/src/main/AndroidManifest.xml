@@ -13,6 +13,16 @@
         android:theme="@style/Theme.AndroidSoundEditor"
         tools:targetApi="31">
         <activity
+            android:name=".SwapSoundActivity"
+            android:exported="false"
+            android:label="@string/title_activity_swap_sound"
+            android:theme="@style/Theme.AndroidSoundEditor" />
+        <activity
+            android:name=".EditSoundActivity"
+            android:exported="false"
+            android:label="@string/title_activity_edit_sound"
+            android:theme="@style/Theme.AndroidSoundEditor" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
