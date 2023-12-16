@@ -28,6 +28,7 @@ class EditSoundActivity : ComponentActivity() {
 }
 
 fun openFile() {
+  // Try with this: https://stackoverflow.com/questions/30789116/implementing-a-file-picker-in-android-and-copying-the-selected-file-to-another-l
   val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
     addCategory(Intent.CATEGORY_OPENABLE)
     type = "audio/*"
